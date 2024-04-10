@@ -25,6 +25,8 @@ bash non_rigid_docker_commands.sh
 - python 
 - crkit docker image (available on ganymede or gamakchi; see below for custom install instructions) 
 
+# warning!!! 
+the intensity values of your files need to be more than 1! If they are in the range of 0-1 the registration will not work. 
 
 # CRKIT Docker
     To perform isotropic resampling (as shown in example.sh) 
